@@ -135,7 +135,7 @@ const Content = () => {
                 {
                     resource.map((item) => (<ResourcePanel key={item.name} myCollection={myCollection} resource={item} hasDeleteBtn={false} hasCollectBtn />))
                 }
-                <VStack
+                {/* <VStack
                     height="calc(100vh - 250px)"
                 >
                     <Box flexGrow={1} alignSelf="stretch" pt="100px">
@@ -176,7 +176,7 @@ const Content = () => {
                         <span> & Developed by </span>
                         <a href="https://pengfeixc.com" target="_blank">Wang Pengfei</a>
                     </Text>
-                </VStack>
+                </VStack> */}
             </VStack>
             <AddResourceDrawer open={addResourceModalOpen} close={() => setAddResourceModalOpen(false)} />
         </MyCollectionContext.Provider>
