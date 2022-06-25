@@ -1,4 +1,20 @@
 [
+	{
+		"name": "个人网站",
+		"icon": "./images/menu/personal-website.svg",
+		"site": [
+			{
+				"name": "个人云笔记",
+				"description": "个人在线云笔记",
+                "url": "http://119.29.164.23:6806"
+			},
+			{
+				"name": "航创网",
+				"description": "航天创新创意科普网站",
+                "url": "http://119.29.164.23:8080"
+			}
+		]
+	},
     {
         "name": "Icon",
         "icon": "./images/menu/icon.svg",
